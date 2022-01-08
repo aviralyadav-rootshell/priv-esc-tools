@@ -1,0 +1,8 @@
+Compile with:
+     gcc -pthread dirty.c -o dirty -lcrypt
+
+Then run (will create firefart user) and give password:
+     ./dirty  new-password
+
+Login to Firefart: 
+      "su firefart" or "ssh firefart@<IP>"
